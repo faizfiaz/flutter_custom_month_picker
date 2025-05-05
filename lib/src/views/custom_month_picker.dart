@@ -285,6 +285,6 @@ class _CustomMonthPickerState extends State<_CustomMonthPicker> {
       }
       return 400;
     }
-    return  widget.size!.width;
+    return  widget.size?.width ?? 400;
   }
 }
